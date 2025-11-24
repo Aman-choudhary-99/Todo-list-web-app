@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do List Web App | Aman Choudhary</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="todo-app">
+    <h1>To-Do List Web App</h1>
+    <p class="subtitle">
+      Add your daily tasks and manage them easily.
+    </p>
+
+    <!-- Add Task Form -->
+    <form id="todo-form" autocomplete="off">
+      <input
+        type="text"
+        id="todo-input"
+        placeholder="Enter a new task..."
+      />
+      <button type="submit">Add Task</button>
+    </form>
+
+    <!-- Task List -->
+    <ul id="todo-list"></ul>
+
+    <p id="empty-message" class="empty-message">
+      No tasks yet. Start by adding one above.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
