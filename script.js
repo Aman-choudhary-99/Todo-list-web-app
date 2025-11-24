@@ -8,7 +8,7 @@ form.addEventListener("submit", function (e) {
   e.preventDefault();
 
   const text = input.value.trim();
-  if (!text) return; // empty input
+  if (!text) return;
 
   addTask(text);
   input.value = "";
@@ -47,5 +47,4 @@ function updateEmptyMessage() {
   }
 }
 
-// Initial state
 updateEmptyMessage();
