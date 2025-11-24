@@ -10,7 +10,7 @@ Users can add and delete tasks without reloading the page. The UI uses a modern 
 ## 🔗 Live Demo
 
 <!-- Update repo name in the URL if you changed it -->
-[View Live](https://aman-choudhary-99.github.io/todo-list-web-app/)
+[View Live](https://aman-choudhary-99.github.io/Todo-list-web-app/)
 
 ---
 
